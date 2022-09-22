@@ -18,7 +18,6 @@ class MainWindow(QMainWindow):
 
         # 经过处理后将result输出到输出框
         self.ui.textBrowser.setText(info)
-        return 'Hello world!'
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
