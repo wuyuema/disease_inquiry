@@ -11,8 +11,8 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
 
     # 提交按钮的点击相应
-    def commit(self):
-        print('[debug] commit')
+    def submit(self):
+        print('[debug] submit')
         # info 为输入字符串
         info = self.ui.textEdit.toPlainText()
 
